@@ -222,7 +222,7 @@ function replay(){
 
 //페이스북 공유
 function shareFace() {
-    var sendUrl = 'https://sheepyis.github.io/playlist/test.html'; // 전달할 URL
+    var sendUrl = 'https://sheepyis.github.io/Playlist/test.html'; // 전달할 URL
     window.open("http://www.facebook.com/sharer/sharer.php?u=" + sendUrl);
 }
 
@@ -235,16 +235,16 @@ function shareKakao() {
             description: '#DJ #플레이리스트 #라벨스티커',   //카카오톡 전송 시 설명에 넣을 문구
             imageUrl: './image/main.png',
             link: {
-                mobileWebUrl: 'https://sheepyis.github.io/playlist/test.html',
-                webUrl: 'https://sheepyis.github.io/playlist/test.html',
+                mobileWebUrl: 'https://sheepyis.github.io/Playlist/test.html',
+                webUrl: 'https://sheepyis.github.io/Playlist/test.html',
             },
         },
         buttons: [
             {
                 title: '플레이리스트 담으러 가기', //카카오톡 전송 시 버튼에 넣을 문구
                 link: {
-                    mobileWebUrl: 'https://sheepyis.github.io/playlist/test.html',
-                    webUrl: 'https://sheepyis.github.io/playlist/test.html',
+                    mobileWebUrl: 'https://sheepyis.github.io/Playlist/test.html',
+                    webUrl: 'https://sheepyis.github.io/Playlist/test.html',
                 },
             },
         ],
@@ -252,7 +252,7 @@ function shareKakao() {
 }
 
 function shareLink() {
-    var url = 'https://sheepyis.github.io/playlist/test.html';
+    var url = 'https://sheepyis.github.io/Playlist/test.html';
     var textarea = document.createElement("textarea");
     document.body.appendChild(textarea);
     textarea.value = url;
