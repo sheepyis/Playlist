@@ -92,84 +92,100 @@ var q={
 }
 
 var result={
-    "ISTJ": {"mbti":"감성에 취한 지휘자", 
+    "ISTJ": {"name":"감성에 취한 지휘자", 
             "photo": "<img src='./image/ISTJ.JPG'>",
-            "music": "<img src='./image/ISTJ_music.JPG'>"
+            "music": "<img src='./image/ISTJ_music.JPG'>",
+            "mbti": "ISTJ"
         },
 
-    "ISFJ": {"mbti":"무대를 빛내는 가수",
+    "ISFJ": {"name":"무대를 빛내는 가수",
             "photo": "<img src='./image/ISFJ.JPG'>",
-            "music": "<img src='./image/ISFJ_music.JPG'>"
+            "music": "<img src='./image/ISFJ_music.JPG'>",
+            "mbti": "ISFJ"
         },
 
-    "INFJ": {"mbti":"자신감있고 당당한 댄서",
+    "INFJ": {"name":"자신감있고 당당한 댄서",
             "photo": "<img src='./image/INFJ.JPG'>",
-            "music": "<img src='./image/INFJ_music.JPG'>"
+            "music": "<img src='./image/INFJ_music.JPG'>",
+            "mbti": "INFJ"
         },
 
-    "INTJ": {"mbti":"다재다능한 음악 감독",
+    "INTJ": {"name":"다재다능한 음악 감독",
             "photo": "<img src='./image/INTJ.JPG'>",
-            "music": "<img src='./image/INTJ_music.JPG'>"
+            "music": "<img src='./image/INTJ_music.JPG'>",
+            "mbti": "INTJ"
         },
 
-    "ISTP": {"mbti":"개성이 뚜렷한 편곡가",
+    "ISTP": {"name":"개성이 뚜렷한 편곡가",
             "photo": "<img src='./image/ISTP.JPG'>",
-            "music": "<img src='./image/ISTP_music.JPG'>"
+            "music": "<img src='./image/ISTP_music.JPG'>",
+            "mbti": "ISTP"
         },
 
-    "ISFP": {"mbti":"예술적 감정을 지닌 작곡가",
+    "ISFP": {"name":"예술적 감정을 지닌 작곡가",
             "photo": "<img src='./image/ISFP.JPG'>",
-            "music": "<img src='./image/ISFP_music.JPG'>"
+            "music": "<img src='./image/ISFP_music.JPG'>",
+            "mbti": "ISFP"
         },
 
-    "INFP": {"mbti":"곡의 분위기를 살리는 성악가",
+    "INFP": {"name":"곡의 분위기를 살리는 성악가",
             "photo": "<img src='./image/INFP.JPG'>",
-            "music": "<img src='./image/INFP_music.JPG'>"
+            "music": "<img src='./image/INFP_music.JPG'>",
+            "mbti": "INFP"
         },
 
-    "INTP": {"mbti":"의견을 수렴하는 음반 기획자",
+    "INTP": {"name":"의견을 수렴하는 음반 기획자",
             "photo": "<img src='./image/INTP.JPG'>",
-            "music": "<img src='./image/INTP_music.JPG'>"
+            "music": "<img src='./image/INTP_music.JPG'>",
+            "mbti": "INTP"
         },
 
-    "ESTP": {"mbti":"때로는 비판적인 음악 평론가",
+    "ESTP": {"name":"때로는 비판적인 음악 평론가",
             "photo": "<img src='./image/ESTP.JPG'>",
-            "music": "<img src='./image/ESTP_music.JPG'>"
+            "music": "<img src='./image/ESTP_music.JPG'>",
+            "mbti": "ESTP"
         },
 
-    "ESFP": {"mbti":"상황파악에 눈치빠른 음향 기사",
+    "ESFP": {"name":"상황파악에 눈치빠른 음향 기사",
             "photo": "<img src='./image/ESFP.JPG'>",
-            "music": "<img src='./image/ESFP_music.JPG'>"
+            "music": "<img src='./image/ESFP_music.JPG'>",
+            "mbti": "ESFP"
         },
 
-    "ENFP": {"mbti":"마음을 공감하는 음악 치료사",
+    "ENFP": {"name":"마음을 공감하는 음악 치료사",
             "photo": "<img src='./image/ENFP.JPG'>",
-            "music": "<img src='./image/ENFP_music.JPG'>"
+            "music": "<img src='./image/ENFP_music.JPG'>",
+            "mbti": "ENFP"
         },
 
-    "ENTP": {"mbti":"다각적 시각인 음악 선생님",
+    "ENTP": {"name":"다각적 시각인 음악 선생님",
             "photo": "<img src='./image/ENTP.JPG'>",
-            "music": "<img src='./image/ENTP_music.JPG'>"
+            "music": "<img src='./image/ENTP_music.JPG'>",
+            "mbti": "ENTP"
         },
 
-    "ESTJ": {"mbti":"전통까지 사랑하는 음악 학자",
+    "ESTJ": {"name":"전통까지 사랑하는 음악 학자",
             "photo": "<img src='./image/ESTJ.JPG'>",
-            "music": "<img src='./image/ESTJ_music.JPG'>"
+            "music": "<img src='./image/ESTJ_music.JPG'>",
+            "mbti": "ESTJ"
         },
 
-    "ESFJ": {"mbti":"준비성이 철저한 행사 음악 담당자",
+    "ESFJ": {"name":"준비성이 철저한 행사 음악 담당자",
             "photo": "<img src='./image/ESFJ.JPG'>",
-            "music": "<img src='./image/ESFJ_music.JPG'>"
+            "music": "<img src='./image/ESFJ_music.JPG'>",
+            "mbti": "ESFJ"
         },
 
-    "ENFJ": {"mbti":"즉흥적이고 새로운 DJ",
+    "ENFJ": {"name":"즉흥적이고 새로운 DJ",
             "photo": "<img src='./image/ENFJ.JPG'>",
-            "music": "<img src='./image/ENFJ_music.JPG'>"
+            "music": "<img src='./image/ENFJ_music.JPG'>",
+            "mbti": "ENFJ"
         },
 
-    "ENTJ": {"mbti":"손으로 곡을 표현하는 연주가",
+    "ENTJ": {"name":"손으로 곡을 표현하는 연주가",
             "photo": "<img src='./image/ENTJ.JPG'>",
-            "music": "<img src='./image/ENTJ_music.JPG'>"
+            "music": "<img src='./image/ENTJ_music.JPG'>",
+            "mbti": "ENTJ"
         }
 }
 
@@ -190,10 +206,10 @@ function next(){
         ($("#SN").val()<=1)?str+="N":str+="S";
         ($("#TF").val()<=1)?str+="F":str+="T";
         ($("#JP").val()<=1)?str+="P":str+="J";
-        $("#mbti").html(result[str]["mbti"]);
+        $("#mbti").html(result[str]["name"]);
         $("#photo").html(result[str]["photo"]);
         $("#music").html(result[str]["music"]);
-        console.log(result[str]);
+        console.log(result[str].mbti+": "+result[str].name);
     }
     else{
         $(".progress-bar").attr('style','width:calc(100/12*'+num+'%)');

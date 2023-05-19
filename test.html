@@ -25,7 +25,15 @@
         <p>나와 맞는 플레이리스트는?</p>
         <span style="font-size:1.5rem; font-weight:bold">당신에게 추천하고 싶은 팝송을 준비했어</span>
         <img src="./image/main.png">
-        <button type="button" class="btn btn-primary" onclick="start();">음악 담으러 가기</button>
+        <button type="button" class="btn btn-primary" onclick="start();">음악 담으러 가기</button><br><br>
+        <span style="font-size:30px">링크 공유하기</span>
+        <center>
+        <div class="shareImage">
+                <img class="facebook" src="./image/facebook.png" onclick="shareFace()">&nbsp;&nbsp;
+                <img class="kakao" src="./image/kakao.png" onclick="shareKakao()">&nbsp;&nbsp;
+                <img class="link" src="./image/link.png" onclick="shareLink()">
+        </div>
+        </center>
     </div>
 
     <!-- 질문 태그 -->
@@ -52,13 +60,8 @@
         </div>
         <div class="result-btn">
             <center>
-            <span style="font-size:30px">링크 공유하기</span>
-            <br>
-            <img class="facebook" src="./image/facebook.png" onclick="shareFace()">&nbsp;&nbsp;
-            <img class="kakao" src="./image/kakao.png" onclick="shareKakao()">&nbsp;&nbsp;
-            <img class="link" src="./image/link.png" onclick="shareLink()">
-            <br><br>
             <button id="replay" type="button" class="btn btn-primary" onclick="replay()">다시하기</button>
+            <br><br>
             </center>
         </div>
     </div>
