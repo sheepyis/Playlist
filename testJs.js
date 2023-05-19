@@ -248,7 +248,7 @@ function shareKakao() {
     Kakao.Link.sendDefault({
         objectType: 'feed',
         content: {
-            title: '플레이리스트 유형테스트',    //카카오톡 전송 시 제목
+            title: '플레이리스트 추천 받을래?',    //카카오톡 전송 시 제목
             description: '#DJ #플레이리스트 #라벨스티커',   //카카오톡 전송 시 설명에 넣을 문구
             imageUrl: "https://i.ibb.co/m6v3v9s/main.png",
             link: {
