@@ -186,10 +186,10 @@ function next(){
         $("#question").hide();
         $("#result").show();
         var str="";
-        ($("#EI").val()<1)?str+="I":str+="E";
-        ($("#SN").val()<1)?str+="N":str+="S";
-        ($("#TF").val()<1)?str+="F":str+="T";
-        ($("#JP").val()<1)?str+="P":str+="J";
+        ($("#EI").val()<=1)?str+="I":str+="E";
+        ($("#SN").val()<=1)?str+="N":str+="S";
+        ($("#TF").val()<=1)?str+="F":str+="T";
+        ($("#JP").val()<=1)?str+="P":str+="J";
         $("#mbti").html(result[str]["mbti"]);
         $("#photo").html(result[str]["photo"]);
         $("#music").html(result[str]["music"]);
