@@ -233,7 +233,7 @@ function shareKakao() {
         content: {
             title: '플레이리스트 유형테스트',    //카카오톡 전송 시 제목
             description: '#DJ #플레이리스트 #라벨스티커',   //카카오톡 전송 시 설명에 넣을 문구
-            imageUrl: 'https://ibb.co/m6v3v9s',
+            imageUrl: "https://i.ibb.co/m6v3v9s/main.png",
             link: {
                 mobileWebUrl: 'https://sheepyis.github.io/Playlist/test.html',
                 webUrl: 'https://sheepyis.github.io/Playlist/test.html',
