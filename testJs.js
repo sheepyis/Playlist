@@ -193,6 +193,7 @@ function next(){
         $("#mbti").html(result[str]["mbti"]);
         $("#photo").html(result[str]["photo"]);
         $("#music").html(result[str]["music"]);
+        console.log(result[str]);
     }
     else{
         $(".progress-bar").attr('style','width:calc(100/12*'+num+'%)');
